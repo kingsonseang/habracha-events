@@ -217,7 +217,7 @@ section{
 
 #menu-bars{
     font-size: 3rem;
-    color:#fff;
+    color: var(--main-color);
     cursor: pointer;
     display: none;
 }
