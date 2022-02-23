@@ -249,6 +249,7 @@ section{
     border-radius: .5rem;
     height: 50rem;
     width:35rem;
+    overflow-x: hidden;
 }
 
 .home .home-slider .swiper-slide img{
