@@ -217,7 +217,7 @@ section{
 
 #menu-bars{
     font-size: 3rem;
-    color: var(--main-color);
+    color: blue;
     cursor: pointer;
     display: none;
 }
@@ -650,7 +650,6 @@ section{
 
     #menu-bars{
         display: initial;
-        color: var(--main-color)
     }
 
     .header .navbar{

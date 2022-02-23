@@ -188,7 +188,7 @@ section{
     background:goldenrod;
 }
 
-/* .header{
+.header{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 10000;
@@ -219,7 +219,7 @@ section{
 
 .header .navbar a:hover{
     color:var(--main-color);
-} */
+}
 
 #menu-bars{
     font-size: 3rem;
@@ -734,8 +734,6 @@ section{
 
     .home .home-slider .swiper-slide{
         width: 27rem;
-        overflow-x: hidden;
-        overflow-y: scroll;
     }
 
     .contact form .inputBox input{
