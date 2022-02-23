@@ -37,10 +37,6 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: #fff;
-    width: 100vw;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 
@@ -197,8 +193,6 @@ section{
     align-items: center;
     justify-content: space-between;
     padding:1.5rem 9%;
-    width: 100vw;
-    height: 10vh;
 }
 
 .header .logo{
@@ -251,7 +245,6 @@ section{
     border-radius: .5rem;
     height: 50rem;
     width:35rem;
-    overflow-x: hidden;
 }
 
 .home .home-slider .swiper-slide img{
@@ -328,42 +321,6 @@ section{
     padding:1rem 0;
     line-height: 2;
 }
-
-
-.about2 .row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-.about2 .row .image{
-    flex:1 1 45rem;
-    padding:1rem;
-}
-
-.about2 .row .image img{ 
-    width: 100%;
-    border-radius: .5rem;
-    border:1rem solid #fff;
-}
-
-.about2 .row .content{
-    flex:1 1 45rem;
-}
-
-.about2 .row .content h3{
-    font-size: 3.5rem;
-    color:black;
-}
-
-.about2 .row .content p{
-    font-size: 1.5rem;
-    color:black;
-    padding:1rem 0;
-    line-height: 2;
-}
-
 
 .gallery .box-container{
     display: grid;
@@ -597,7 +554,7 @@ section{
 .footer .credit{
     text-align: center;
     border-top: .1rem solid rgb(237, 237, 237);
-    color:white;
+    color:#fff;
     padding:2rem;
     padding-top: 2.5rem;
     margin-top: 1rem;
@@ -693,6 +650,7 @@ section{
 
     #menu-bars{
         display: initial;
+        color: var(--main-color)
     }
 
     .header .navbar{
@@ -732,15 +690,8 @@ section{
         font-size: 50%;
     }
 
-    .header {
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-
     .home .home-slider .swiper-slide{
         width: 27rem;
-        overflow-x: hidden;
-        overflow-y: scroll;
     }
 
     .contact form .inputBox input{
