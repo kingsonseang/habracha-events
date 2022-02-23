@@ -730,6 +730,10 @@ section{
         font-size: 50%;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .home .home-slider .swiper-slide{
         width: 27rem;
         overflow-x: hidden;
