@@ -650,6 +650,7 @@ section{
 
     #menu-bars{
         display: initial;
+        color: var(--main-color)
     }
 
     .header .navbar{
