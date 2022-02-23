@@ -732,8 +732,9 @@ section{
         font-size: 50%;
     }
 
-    body {
+    .header {
         overflow-x: hidden;
+        overflow-y: scroll;
     }
 
     .home .home-slider .swiper-slide{
