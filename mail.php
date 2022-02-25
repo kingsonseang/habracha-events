@@ -12,7 +12,6 @@ $headers = "From: noreply@habracha-events.com" . "\r\n" .
 "CC: highoakltd@gmail.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
-} else{
-    echo 'Thank you for contacting us!';
- }
+} 
+header("Location:about.html");
 ?>
