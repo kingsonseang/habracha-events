@@ -25,14 +25,14 @@
                 
     </div>
 
-      <a href="#contact" class="btn-get-started scrollto">contact us</a>
+      <a href="#contact" class="btn-get-started scrollto">contact us <i class="fa-solid fa-envelope"></i></a>
     </div>
   </section><!-- End Hero -->
 
 
 <header class="header">
 
-    <a href="#" class="logo"><span>Ha</span>bracha</a>
+    <a href="#" class="logo"><img src="images/logo.png" height="130px" width="170px"></a>
 
     <!-- nav -->
     <nav class="navbar">
@@ -279,16 +279,16 @@
 
     <h1 class="heading"> <span>contact</span> us </h1>
 
-    <form action="mail.php">
+    <form action="mail.php" method="POST">
         <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
+            <input type="text" placeholder="name" name="name" required>
+            <input type="email" placeholder="email" name-="email" required>
         </div>
         <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
+            <input type="number" placeholder="number" name="number" required>
+            <input type="text" placeholder="subject" name="subject" required>
         </div>
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10" required></textarea>
         <input type="submit" value="send message" class="btn">
     </form>
 

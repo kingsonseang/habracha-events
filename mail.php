@@ -13,6 +13,6 @@ $headers = "From: noreply@habracha-events.com" . "\r\n" .
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 } else{
-    echo 'Thank you for contacting us';
+    echo 'Thank you for contacting us!';
  }
 ?>
