@@ -281,14 +281,14 @@
 
     <form action="mail.php" method="POST">
         <div class="inputBox">
-            <input type="text" placeholder="name" name="name" pattern="[A-Z\sa-z]{3,20}" required>
-            <input type="email" placeholder="email" name-="email" required>
+            <input type="text" placeholder="name" id="name" name="name" pattern="[A-Z\sa-z]{3,20}" required>
+            <input type="email" placeholder="email" id="email" name="email" required>
         </div>
         <div class="inputBox">
-            <input type="number" placeholder="number" name="number" required>
-            <input type="text" placeholder="subject" name="subject" required>
+            <input type="number" placeholder="number" id="number" name="number" required>
+            <input type="text" placeholder="subject" id="subject" name="subject" required>
         </div>
-        <textarea name="message" placeholder="your message" id="" cols="30" rows="10" required></textarea>
+        <textarea name="message" placeholder="your message" id="message" cols="30" rows="10" required></textarea>
         <input type="submit" value="send message" class="btn">
     </form>
 
